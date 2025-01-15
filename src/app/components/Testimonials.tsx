@@ -31,7 +31,7 @@ export default function Testimonials() {
                         <figure className="mt-10 flex flex-auto flex-col justify-between">
                             <blockquote className="text-lg/8 text-white">
                                 <p>
-                                    “Once we decided on our technology plan Dakota IT Solutions implemented it quickly. Our new office runs smoothly and we couldn't be happier.”
+                                    “Once we decided on our technology plan Dakota IT Solutions implemented it quickly. Our new office runs smoothly and we couldn&#39;t be happier.”
                                 </p>
                             </blockquote>
                             <figcaption className="mt-10 flex items-center gap-x-6">
