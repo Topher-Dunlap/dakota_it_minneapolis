@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #FFFFFF;
+    --foreground: #ededed;
+  }
+}
+
+#show_bg_2 {
+  /*background-image:*/
+  /*        linear-gradient(to bottom, rgba(255, 255, 255, 255)),*/
+  /*        url('../../public/minneapolis_outline_1.jpg');*/
+  content:"";
+  position: absolute;
+  bottom: 4%;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #111827 100%);
+  height: 40%;
+  width: 100%;
+}
+
+body {
+  color: #1A1F2C;
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
