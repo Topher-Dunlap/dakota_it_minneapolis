@@ -49,7 +49,7 @@ export default function WorkWithUs() {
                 <div className="mx-auto max-w-2xl lg:mx-0">
                     <h2 className="text-5xl font-semibold tracking-tight text-white sm:text-7xl">Work with us</h2>
                     <p className="mt-8 text-pretty text-lg font-medium text-gray-300 sm:text-xl/8">
-                        With over two decades of experience in Information Technology, we've worked with businesses of all sizes,
+                        With over two decades of experience in Information Technology, we&#39;ve worked with businesses of all sizes,
                         from large corporations to small startups, providing tailored solutions that meet their unique needs.
                         We focus on delivering exceptional service, helping clients develop smart technology roadmaps that fit their budget,
                         increase productivity, and ensure seamless integration, while offering both remote and on-site support when needed.

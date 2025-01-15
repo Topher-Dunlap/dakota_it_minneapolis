@@ -54,7 +54,7 @@ export default function Testimonials() {
                         <figure className="mt-10 flex flex-auto flex-col justify-between">
                             <blockquote className="text-lg/8 text-white">
                                 <p>
-                                    “Our technology just works and that's our best case scenario. Dakota IT Solutions helps us focus on our clients which is what we need to be doing.”
+                                    “Our technology just works and that&#39;s our best case scenario. Dakota IT Solutions helps us focus on our clients which is what we need to be doing.”
                                 </p>
                             </blockquote>
                             <figcaption className="mt-10 flex items-center gap-x-6">
