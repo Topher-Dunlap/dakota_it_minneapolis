@@ -1,8 +1,4 @@
 import Image from "next/image";
-import MainHeader from "./MainHeader";
-import WorkWithUs from "./WorkWithUs";
-import Title from "./Title";
-import Testimonials from "./Testimonials";
 
 export default function Footer() {
     return (
