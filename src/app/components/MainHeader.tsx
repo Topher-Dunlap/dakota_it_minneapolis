@@ -2,7 +2,7 @@
 
 import {useState} from 'react'
 import {Dialog, DialogPanel} from '@headlessui/react'
-import {Bars3Icon, XMarkIcon} from '@heroicons/react/24/outline'
+import {XMarkIcon} from '@heroicons/react/24/outline'
 
 const navigation = [
     {name: 'Product', href: '#'},
@@ -57,7 +57,7 @@ export default function MainHeader() {
                             <svg className="w-10 h-10 text-gray-800 dark:#111827" aria-hidden="true"
                                  xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                  viewBox="0 0 24 24">
-                                <path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h14"/>
+                                <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="M5 7h14M5 12h14M5 17h14"/>
                             </svg>
                         </span>
                     </button>
