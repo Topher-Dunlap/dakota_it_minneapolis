@@ -1,6 +1,6 @@
 export default function CopyBody2() {
     return (
-        <div className="bg-gradient-to-r from-[#1B2E3A] to-emerald-950 py-24 rounded-3xl mx-8 sm:py-32">
+        <div className="bg-gradient-to-b from-[#1B2E3A]  via-gray-800 to-emerald-1000 py-24 rounded-3xl mx-8 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
                     Trust your tech with IT pros
@@ -15,7 +15,7 @@ export default function CopyBody2() {
                 <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
                     <div className="flex p-px lg:col-span-4">
                         <div
-                            className="overflow-hidden rounded-lg bg-gradient-to-t  from-gray-800 to-blue-950 ring-1 ring-white/15 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
+                            className="overflow-hidden rounded-lg bg-gradient-to-t  from-gray-800 to-emerald-950 ring-1 ring-white/15 max-lg:rounded-t-[2rem] lg:rounded-tl-[2rem]">
                             <img
                                 alt=""
                                 src="it_staff_1.jpg"
@@ -35,7 +35,7 @@ export default function CopyBody2() {
                     </div>
                     <div className="flex p-px lg:col-span-2">
                         <div
-                            className="overflow-hidden rounded-lg bg-gradient-to-t  from-gray-800 to-blue-950 ring-1 ring-white/15 lg:rounded-tr-[2rem]">
+                            className="overflow-hidden rounded-lg bg-gradient-to-t  from-gray-800 to-emerald-950 ring-1 ring-white/15 lg:rounded-tr-[2rem]">
                             <img
                                 alt=""
                                 src="https://tailwindcss.com/plus-assets/img/component-images/bento-02-integrations.png"
