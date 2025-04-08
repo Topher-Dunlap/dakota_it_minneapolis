@@ -35,7 +35,7 @@ export default function CopyBody2() {
                     </div>
                     <div className="flex p-px lg:col-span-2">
                         <div
-                            className="overflow-hidden rounded-lg bg-gradient-to-t  from-gray-800 to-emerald-950 ring-1 ring-white/15 lg:rounded-tr-[2rem]">
+                            className="overflow-hidden rounded-lg bg-gray-800 ring-1 ring-white/15 lg:rounded-tr-[2rem]">
                             <img
                                 alt=""
                                 src="https://tailwindcss.com/plus-assets/img/component-images/bento-02-integrations.png"

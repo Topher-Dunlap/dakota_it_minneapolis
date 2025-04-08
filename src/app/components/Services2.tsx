@@ -20,7 +20,7 @@ export default function Services2() {
                                 <h3 className="text-1xl font-semibold text-blue-800">Security</h3>
                                 <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">From Digital to Door Access</p>
                                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
-                                    Client Trainings, Network related, Cameras, Doors and everything inbetween. We cover it all when it comes to security.
+                                    Cyber Security Trainings, Network safeguards and monitoring, Cameras, Doors and everything inbetween. We cover it all when it comes to security.
                                 </p>
                             </div>
                         </div>
@@ -72,7 +72,7 @@ export default function Services2() {
                             />
                             <div className="p-5 pt-4">
                                 <h3 className="text-1xl font-semibold text-blue-800">Consulting</h3>
-                                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">We're here to help</p>
+                                <p className="mt-2 text-lg font-medium tracking-tight text-gray-950">We&#39;re here to help</p>
                                 <p className="mt-2 max-w-lg text-sm/6 text-gray-600">
                                     Need another pair of eyes on your IT project? Want expert advise on leading industry standards? We can help.
                                 </p>

@@ -1,6 +1,5 @@
 import React from "react";
 import { BackgroundBeams } from "./BackgroundBeams";
-import { cn } from "@/lib/utils";
 
 export default function Title() {
     return (
