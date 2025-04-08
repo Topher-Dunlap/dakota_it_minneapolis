@@ -2,16 +2,18 @@ export default function CopyBody2() {
     return (
         <div className="bg-gradient-to-b from-[#1B2E3A]  via-gray-800 to-emerald-1000 py-24 rounded-3xl mx-8 sm:py-32">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
-                <p className="mt-2 text-pretty text-4xl font-semibold tracking-tight text-white sm:text-5xl">
-                    Trust your tech with IT pros
-                </p>
-                <span className="text-2xl mx-w-lg text-emerald-700">
-                    Who act like real people
-                </span>
-                <span> </span>
-                <span className="italic mx-w-lg text-balance text-2xl text-emerald-50">
+                <div className="text-center">
+                    <p className="mt-2 text-center text-5xl text-pretty mb-8 font-semibold tracking-tight text-white sm:text-7xl">
+                        Trust your tech with IT pros
+                    </p>
+                    <span className="text-center text-2xl mx-w-lg text-emerald-700">
+                        Who act like real people
+                    </span>
+                    <span> </span>
+                    <span className="italic mx-w-lg text-balance text-2xl text-emerald-50">
                         —and treat you like one, too
                 </span>
+                </div>
                 <div className="mt-10 grid grid-cols-1 gap-4 sm:mt-16 lg:grid-cols-6 lg:grid-rows-2">
                     <div className="flex p-px lg:col-span-4">
                         <div
