@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 
 :root {
   --background: #ffffff;
@@ -14,22 +17,10 @@
   }
 }
 
-#show_bg_2 {
-  /*background-image:*/
-  /*        linear-gradient(to bottom, rgba(255, 255, 255, 255)),*/
-  /*        url('../../public/minneapolis_outline_1.jpg');*/
-  content:"";
-  position: absolute;
-  bottom: 4%;
-  left: 0;
-  right: 0;
-  background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, #111827 100%);
-  height: 40%;
-  width: 100%;
-}
-
 body {
   color: #1A1F2C;
   background: var(--background);
+  /*background-image: linear-gradient(to right,#006145,#1c303b,#192B6D,#1c303b,#006145);*/
   font-family: Arial, Helvetica, sans-serif;
+  --font-roboto: "Roboto", sans-serif;
 }

@@ -1,34 +1,52 @@
+import React from "react";
+import { BackgroundBeams } from "./BackgroundBeams";
+import { cn } from "@/lib/utils";
+
 export default function Title() {
     return (
-        <div className="mx-auto max-w-7xl sm:px-6 lg:px-8 md:my-48 my-10 text-center">
-            <div id="show_bg_2">
-                <img
-                    alt="city_outline"
-                    src="minneapolis_outline_1.jpg"
-                    className="absolute inset-0 -z-10 size-full object-cover object-right md:object-center"
-                />
-            </div>
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl">
-                <span className="text-transparent bg-clip-text bg-gradient-to-r to-[#192B6D] from-[#111827]">
-                    Dakota
-                </span>
-                <span> </span>
-                <span className="text-transparent bg-clip-text bg-gradient-to-r to-emerald-600 from-[#192B6D]">
-                     IT Solutions
+        <div className="font-roboto sm:px-6 mx-8 lg:px-8 mt-48 sm:mx-2 text-left">
+            <h1 className="z-10 relative mb-6 text-6xl font-extrabold md:text-7xl lg:text-8xl">
+                <span
+                    className="text-transparent bg-clip-text bg-[length:200%_auto] bg-[linear-gradient(to_right,#006145,#1c303b,#192B6D,#1c303b,#006145)] animate-gradient">
+                    Dakota IT Solutions
                 </span>
             </h1>
-            <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
-                IT services designed to be as unique as your business because one size does not fit all.
-            </p>
+            <div
+                className="z-10 relative text-3xl md:text-4xl text-[#192B6D] font-extrabold [text-wrap:balance] bg-clip-text"
+            >
+                Simplify Your
+                <span> </span>
+                <span
+                    className="mr-2 text-emerald-800 inline-flex flex-col h-[calc(theme(fontSize.3xl)*theme(lineHeight.tight))] md:h-[calc(theme(fontSize.4xl)*theme(lineHeight.tight))] overflow-hidden">
+                    <ul className="animate-text-slide block text-left leading-tight [&_li]:block">
+                        <li>Tech Consulting</li>
+                        <li>Cybersecurity</li>
+                        <li>Managed IT</li>
+                        <li>Network Solutions</li>
+                        <li>Disaster Recovery</li>
+                        <li>Cloud Migration</li>
+                        <li>Data Backup</li>
+                        <li>Hardware Install </li>
+                        <li aria-hidden="true">Tech Consulting</li>
+                    </ul>
+                </span>
+            </div>
             <a href="#"
-               className="inline-flex items-center justify-center px-5 py-2.5 text-base font-medium text-center text-white bg-gradient-to-br from-[#111827] to-[#192B6D] rounded-lg hover:bg-[#111827] focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900">
-                Contact Us
-                <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+               className="z-10 relative mb-24 mt-4 inline-flex items-center justify-center px-5 py-2.5 text-base font-medium text-center text-[#192B6D] rounded-lg border-green-700 border-2 dark:focus:ring-blue-900 hover:bg-green-700 hover:text-white">
+                LET’S SIMPLIFY
+                <svg className="w-3.5 h-3.5 ms-2 rtl:rotate-180" aria-hidden="true"
+                     xmlns="http://www.w3.org/2000/svg"
                      fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2"
                           d="M1 5h12m0 0L9 1m4 4L9 9"/>
                 </svg>
             </a>
+            <div
+                className="-z-2 relative bg-cityOutline w-full block mx-auto px-auto h-[21vw] sm:h-[22vw] bg-contain bg-center-bottom bg-no-repeat">
+            </div>
+            <div>
+                <BackgroundBeams/>
+            </div>
         </div>
     )
 }

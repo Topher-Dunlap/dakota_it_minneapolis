@@ -9,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@designbycode/tailwindcss-conic-gradient": "^1.0.3",
     "@headlessui/react": "^2.2.0",
     "@heroicons/react": "^2.2.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.475.0",
+    "motion": "^12.4.7",
     "next": "15.1.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-scroll-parallax": "^3.4.5",
-    "tailwind-gradient-mask-image": "^1.2.0"
+    "tailwind-gradient-mask-image": "^1.2.0",
+    "tailwind-merge": "^3.0.2",
+    "tailwindcss-animate": "^1.0.7"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
